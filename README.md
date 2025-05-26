@@ -184,9 +184,13 @@ Consider two jugs with:
 - Jug Y capacity = 2 liters
 
 All possible states (x,y) that could exist:
+
 (0,0) (0,1) (0,2) # X=0, Y varies from 0-2
+
 (1,0) (1,1) (1,2) # X=1, Y varies from 0-2
+
 (2,0) (2,1) (2,2) # X=2, Y varies from 0-2
+
 (3,0) (3,1) (3,2) # X=3, Y varies from 0-2
 
 Total states = (3+1) × (2+1) = 4 × 3 = 12 states
@@ -195,7 +199,6 @@ This demonstrates why both time and space complexity are O(x*y):
 - Jug X: (x+1) possible values [0,1,2,...,x]
 - Jug Y: (y+1) possible values [0,1,2,...,y]
 - Total possible states = (x+1)(y+1) ≈ O(x*y)
-
 
 ## Error Handling
 
