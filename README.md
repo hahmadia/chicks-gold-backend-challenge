@@ -18,11 +18,6 @@ Goal: Find the shortest sequence of steps to measure exactly Z liters using only
 
 ## Getting Started
 
-### Prerequisites
-
-- .NET 7.0 SDK or later
-- Git (for cloning the repository)
-
 ### Installation
 
 1. Install dotnet SDK if you don't already have it
